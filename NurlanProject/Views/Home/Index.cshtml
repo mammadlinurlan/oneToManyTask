@@ -1,0 +1,49 @@
+﻿@using NurlanProject
+@using NurlanProject.Models
+@model List<Group>
+
+
+
+
+
+
+<div class="container">
+
+
+    <div class="row justify-content-between">
+        @foreach (Group group in Model)
+        {
+            @foreach (Student student in group.Students)
+            {
+
+
+                <div class="card" style="width: 18rem; background-color:aqua">
+                    <div class="card-body">
+                        <h5 class="card-title">@student.Name @student.Surname</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">@student.Group.GroupNo</h6>
+                        <p class="card-text">@student.Age</p>
+
+                    </div>
+                </div>
+
+
+            }
+        }
+    </div>
+
+
+
+     
+
+
+   
+
+   
+</div>
+
+
+    
+
+
+
+

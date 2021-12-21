@@ -1,0 +1,43 @@
+﻿<Properties StartupConfiguration="{16E4E5D8-55FD-4B9F-BC23-30B1944E7E86}|Default">
+  <MonoDevelop.Ide.ItemProperties.NurlanProject PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="NurlanProject/Views/Home/Index.cshtml">
+    <Files>
+      <File FileName="NurlanProject/Controllers/HomeController.cs" Line="20" Column="1" IsPinned="True" />
+      <File FileName="NurlanProject/Startup.cs" />
+      <File FileName="NurlanProject/Views/Home/Index.cshtml" Line="13" Column="44" />
+      <File FileName="NurlanProject/Views/Shared/_Layout.cshtml" />
+      <File FileName="NurlanProject/Views/_ViewStart.cshtml" />
+      <File FileName="NurlanProject/Models/AppDbContext.cs" />
+      <File FileName="NurlanProject/Models/Group.cs" />
+      <File FileName="NurlanProject/Models/Student.cs" />
+      <File FileName="NurlanProject/Migrations/20211221155144_createdTables.cs" />
+      <File FileName="NurlanProject/Migrations/AppDbContextModelSnapshot.cs" />
+      <File FileName="NurlanProject/Migrations/20211221200735_createdNone.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="NurlanProject" expanded="True">
+            <Node name="NurlanProject" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Migrations" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
